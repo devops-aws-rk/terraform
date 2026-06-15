@@ -1,0 +1,24 @@
+# terraform
+
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# variable
+
+*.tfvars
+*.tfvars.json
+
+# carsh logs
+crash.logs
+
+# tf plan
+.tfplan
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
